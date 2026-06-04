@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://salman2930.github.io/tharunum-technologies/sitemap.xml
