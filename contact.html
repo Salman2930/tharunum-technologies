@@ -227,14 +227,17 @@ End Fixed Navigation
                     <textarea rows="6" placeholder="Message" class="form-control" name="message" required></textarea>
                 </div>
 
-                <!-- FormSubmit Settings -->
-                <input type="hidden" name="_subject" value="New Contact Form Submission">
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_template" value="table">
+              <!-- FormSubmit Settings -->
+              <input type="hidden" name="_subject" value="New Contact Form Submission">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
 
-                <div id="cf-submit">
-                    <input type="submit" id="contact-submit" class="btn btn-transparent" value="Send Message">
-                </div>
+              <!-- Redirect after successful submission -->
+              <input type="hidden" name="_next" value="https://salman2930.github.io/tharunum-technologies/">
+
+              <div id="cf-submit">
+                  <input type="submit" id="contact-submit" class="btn btn-transparent" value="Send Message">
+              </div>
 
             </form>
         </div>
